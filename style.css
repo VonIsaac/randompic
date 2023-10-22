@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+*{
+   font-family: Comic Sans MS;
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.7) url(/img/anthony-delanoix-QAwciFlS1g4-unsplash.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: darken;
+}
+
+.container{
+   background: linear-gradient(135deg, #63b6e9, #a3cae1, rgba(214,225,231,1));
+   width: 750px;
+   height: 850px;
+   border-radius: 25px;
+   padding: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+   margin-bottom: 40px;
+   font-size: xx-large;
+}
+
+.icon-img{
+   border: 1px solid black;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 40px;
+}
+
+.paragraph{
+   font-size: x-large;
+   letter-spacing: 1.2;
+   font-weight: 500;
+   margin-bottom: 40px;
+   
+}
+
+.img-btn{
+   padding: 5px;
+   width: 300px;
+   height: 45px;
+   border-radius: 5px;
+   font-size: larger;
+   background: linear-gradient(165deg, #63b6e9, #70b1d6, #7faac2);
+   cursor: pointer;
+}
+
+@media (max-width: 480px){
+   .container{
+      height: 900px;
+   }
+}
+
+@media (max-width: 481px){
+   .container{
+      height: 950px;
+   }
+}
